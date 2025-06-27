@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+
+}
+
+.container {
+    font-size: 10px;
+    border: 2px solid red;
+    /* width: 300px; */
+    /* height: 400px; */
+    /* vh is viewport hieght  */
+    /* jab viewPort k braabar height chahiye to vh use hota */
+    height: 100vh;
+    /* vw is viewport width */
+    width: 100vw;
+}
+
+#first {
+    /* em sets font size according to parent size 
+    i.e if i do 10em it mean it is 10 time greater than parent size*/
+    /* em ko tab use krna jb parent k lihaz sy child ka size change krna ho */
+    font-size: 3em;
+    padding: 3em;
+}
+
+#second {
+    /* rem sets according to root(html)  */
+    /* jb aisa font size chahiye jo apny parent pr depend kry to use rem hoti */
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+#third {}
